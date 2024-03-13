@@ -4,4 +4,4 @@ COPY . .
 
 EXPOSE 8000
 
-ENTRYPOINT ["pyhton", "-m", "http.server"]
+ENTRYPOINT ["python", "-m", "http.server"]
